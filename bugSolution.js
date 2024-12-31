@@ -1,0 +1,1 @@
+The solution is to refactor the class component to a functional component and use the hooks properly within that functional component. If converting the entire class component isn't feasible, the problematic logic needs to be extracted to a separate functional component and then used within the class component.
