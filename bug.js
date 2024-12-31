@@ -1,0 +1,1 @@
+In React 19, using the new `use` syntax with a class component can lead to unexpected behavior if not handled correctly.  For example, directly using `use` within a class component's lifecycle methods (like `componentDidMount`) will throw errors because `use` is designed for functional components and hooks.
